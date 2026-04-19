@@ -1,6 +1,10 @@
-# [UTM](https://github.com/Costel03/Costel.I-UTM-Info-ID/archive/refs/heads/main.zip)
+<h1 align="center">
+  <a href="https://github.com/Costel03/Costel.I-UTM-Info-ID/archive/refs/heads/main.zip">
+    <img src="sigla.png" alt="UTM" width="300">
+  </a>
+</h1>
 
-#### Resurse Universitatea Titu Maiorescu - Facultatea de Informatica (ID).
+<h4 align="center">Resurse Universitatea Titu Maiorescu - Facultatea de Informatica (ID).</h4>
 
 ---
 
