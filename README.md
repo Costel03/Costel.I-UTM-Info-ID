@@ -31,3 +31,51 @@
 - [Sisteme de operare](https://github.com/Costel03/Costel.I-UTM-Info-ID/tree/main/Anul%20I/Semestrul%20II/Sisteme%20de%20operare) - Linux
 - [Tehnologii web](https://github.com/Costel03/Costel.I-UTM-Info-ID/tree/main/Anul%20I/Semestrul%20II/Tehnologii%20web)
 
+---
+
+## Linux Curs Interactiv
+
+[`linux-curs-interactiv-simplu.sh`](./linux-curs-interactiv-simplu.sh) este un script Bash interactiv pentru studiul comenzilor Linux, bazat pe cursul **InfoAcademy Linux** (Capitolele 3, 4, 5, 6, 7, 8, 12, 13).
+
+### Utilizare
+
+```bash
+bash linux-curs-interactiv-simplu.sh
+```
+
+> Recomandat: rulat in WSL (Windows Subsystem for Linux) sau orice terminal Linux/macOS.
+
+### Structura
+
+| Capitol | Subiect |
+|---------|---------|
+| 3 | Sistemul de Fisiere (navigare, permisiuni, arhivare) |
+| 4 | Utilizatori si Permisiuni (useradd, passwd, grupuri) |
+| 5 | Procese si Semnale (ps, kill, bg/fg, systemd) |
+| 6 | Shell Scripting (variabile, bucle, functii, pipe) |
+| 7 | Administrarea Software-ului (apt, dpkg, hardware) |
+| 8 | Configurarea Retelei (ip, ping, dns, porturi) |
+| 12 | Serverul E-mail (Postfix, SMTP, IMAP) |
+| 13 | Serverul NTP (chrony, timedatectl) |
+
+### Functionare
+
+La fiecare sectiune sunt afisate **comenzile de invatat**, iar utilizatorul alege care vrea sa ruleze:
+
+```
+  ▸ Alege o comanda de rulat:
+
+    1.  ls -la / --color=auto
+    2.  df -Th | head -12
+
+    a.  Ruleaza toate comenzile
+    c.  Scrie o comanda proprie
+    0.  Inapoi
+```
+
+---
+
+## Licenta
+
+Distribuit sub licenta [MIT](./LICENSE).
+
