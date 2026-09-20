@@ -1,54 +1,54 @@
-# Laborator Linux — Curs Interactiv
+# Linux Lab — Interactive Course
 
-Script Bash interactiv pentru exersarea comenzilor Linux, bazat pe cursul **InfoAcademy Linux** (Capitolele 3, 4, 5, 6, 7, 8, 12, 13).
+An interactive Bash script for practising Linux commands, based on the **InfoAcademy Linux** course (chapters 3, 4, 5, 6, 7, 8, 12, 13).
 
-**Student:** Iacob Costel | Anul I ID | Grupa 106
+**Student:** Iacob Costel | Year I ID | Group 106
 
 ---
 
-## Rulare
+## Running it
 
 ```bash
 bash linux-curs-interactiv.sh
 ```
 
-> Recomandat: WSL (Windows Subsystem for Linux) sau orice terminal Linux/macOS cu Bash 4+.
+> Recommended: WSL (Windows Subsystem for Linux), or any Linux/macOS terminal with Bash 4+.
 
 ---
 
-## Capitole acoperite
+## Chapters covered
 
-| # | Capitol | Subiecte |
-|---|---------|---------|
-| 3 | Sistemul de Fisiere | navigare, permisiuni, arhivare |
-| 4 | Utilizatori si Permisiuni | useradd, passwd, grupuri |
-| 5 | Procese si Semnale | ps, kill, bg/fg, systemd |
-| 6 | Shell Scripting | variabile, bucle, functii, pipe |
-| 7 | Administrarea Software-ului | apt, dpkg, hardware |
-| 8 | Configurarea Retelei | ip, ping, DNS, porturi |
-| 12 | Serverul E-mail | Postfix, SMTP, IMAP |
-| 13 | Serverul NTP | chrony, timedatectl |
+| # | Chapter | Topics |
+|---|---------|--------|
+| 3 | The Filesystem | navigation, permissions, archiving |
+| 4 | Users and Permissions | useradd, passwd, groups |
+| 5 | Processes and Signals | ps, kill, bg/fg, systemd |
+| 6 | Shell Scripting | variables, loops, functions, pipes |
+| 7 | Software Administration | apt, dpkg, hardware |
+| 8 | Network Configuration | ip, ping, DNS, ports |
+| 12 | Mail Server | Postfix, SMTP, IMAP |
+| 13 | NTP Server | chrony, timedatectl |
 
 ---
 
-## Cum functioneaza
+## How it works
 
-Navigati prin meniuri cu tastele numerice. In fiecare sectiune sunt afisate explicatiile teoretice si o lista de comenzi pe care le puteti rula individual:
+Navigate the menus with the number keys. Each section shows the theory first, then a list of commands you can run individually:
 
 ```
-  ▸ Alege o comanda de rulat:
+  ▸ Choose a command to run:
 
     1.  ps aux --sort=-%cpu | head -12
     2.  pstree -p | head -20
 
-    a.  Ruleaza toate comenzile
-    c.  Scrie o comanda proprie
-    0.  Inapoi
+    a.  Run all commands
+    c.  Type your own command
+    0.  Back
 
-  Alegeti: _
+  Choice: _
 ```
 
-Comanda selectata ruleaza in terminal si afiseaza rezultatul incadrat:
+The selected command runs in your terminal and its output is shown framed, with the exit code:
 
 ```
   ┌── $ ps aux --sort=-%cpu | head -12
@@ -57,3 +57,5 @@ Comanda selectata ruleaza in terminal si afiseaza rezultatul incadrat:
   │
   └── exit code: 0
 ```
+
+> The script's own interface is in Romanian — this README describes it in English.
