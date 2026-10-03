@@ -77,5 +77,8 @@ La fiecare sectiune sunt afisate **comenzile de invatat**, iar utilizatorul aleg
 
 ## Licenta
 
-Distribuit sub licenta [MIT](./LICENSE).
+Codul si materialele proprii (notite, rezolvari, programe) sunt distribuite sub licenta
+[MIT](./LICENSE). Materialele de curs incluse pentru studiu (cursuri, prezentari, fise de
+laborator etc.) apartin autorilor lor, cadrele didactice UTM, si **nu** sunt acoperite de
+aceasta licenta.
 
